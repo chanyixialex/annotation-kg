@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>annotation-project</title>
+  <style>
+    .completed {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <!-- <v-app id="inspire">
+      <v-form ref="form" v-model="valid" lazy-validation>
+        <v-text-field v-model="name" :counter="10" :rules="nameRules" label="Name" required></v-text-field>
+
+        <v-text-field v-model="email" :rules="emailRules" label="E-mail" required></v-text-field>
+
+        <v-select v-model="select" :items="items" :rules="[v => !!v || 'Item is required']" label="Item" required>
+        </v-select>
+
+        <v-checkbox v-model="checkbox" :rules="[v => !!v || 'You must agree to continue!']" label="Do you agree?"
+          required></v-checkbox>
+
+        <v-btn :disabled="!valid" color="success" @click="validate">
+          Validate
+        </v-btn>
+
+        <v-btn color="error" @click="reset">
+          Reset Form
+        </v-btn>
+
+        <v-btn color="warning" @click="resetValidation">
+          Reset Validation
+        </v-btn>
+      </v-form>
+    </v-app> -->
+  </div>
+  <!-- <div id="computed" v-bind:title="first">
+        {{ username }}
+      <input type="text" v-model="first">
+      <input type="text" v-model='last'>
+    </div>
+    <div id="component">
+      <ol>
+          <to-item
+          v-for="item in groceryList" 
+          v-bind:todo="item"
+          v-bind:key="item.id"
+          ></to-item>
+      </ol>
+      
+    </div>
+    <div id="form">
+      <ul>
+        <li @click="toggle(task)" :class="task.completed ? 'completed':''" v-for="task in tasks">{{task.body}}</li>
+      </ul>
+    </div>
+    <div id="tem">
+      <template-component :list="tasks"></template-component>
+     <li
+      is="task-template"
+      v-for="(todo, index) in todos"
+      v-bind:key="todo.id"
+      v-bind:title="todo.title"
+      v-on:remove="todos.splice(index, 1)"
+      ></li> -->
+  <!-- </div>
+    <template id="task-template">
+      <div>
+        <h1>My task 
+          <span v-show="remaining">({{ remaining }})</span>
+        </h1>
+        <ul>
+          <li @click="toggle(task)" :class="task.completed ? 'completed':''" v-for="(task, index) in list" v-on:remove="tasks.splice(index, 1)">{{task.body}} <strong @click="$emit(remove)">X</strong></li>
+        </ul>
+      </div>
+      
+    </template> -->
+</body>
+
+</html>
